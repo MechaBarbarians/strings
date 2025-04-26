@@ -131,7 +131,7 @@ function checkForPalindrome()
 
           return; 
      }
-     
+     //concatenation
      let zipRegex = /^\d{5}$/
 
      if (!zipRegex.test(zipValue))
@@ -143,7 +143,7 @@ function checkForPalindrome()
     }
   
 
-    results.innerHTML = "Thats a great zip code!";
+    results.innerHTML = "Thats a great zip code and Name, you will go far in life!";
     console.log("input validated!");
 
 }
